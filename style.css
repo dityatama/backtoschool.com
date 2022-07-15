@@ -1,0 +1,376 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0;
+    background-color: ;
+    font-family: ;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.wrapper {    
+    float: left;
+    line-height: 50px;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    padding: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    background-color: #1B262C;
+    border-top: 3px solid #143f5c;
+    box-shadow: 0 0 10px black;
+    margin-bottom: 50px;
+    position: sticky;
+}
+
+.menu {
+    margin: auto;
+}
+.logo {
+    font-size: 50px;
+    float: left;
+    margin: auto;
+    display: flex;
+}
+.logo a {
+    color: #BBE1FA;
+    background-color: #143f5c;
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-shadow: 0 0 10px black;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style-type: none;
+    float: left;
+}
+
+.menu ul li a {
+    margin: 50px 10px 50px 10px;
+    color: #BBE1FA;
+    background-color: #143f5c;
+    padding: 10px 10px 10px 10px;    
+    border-radius: 15px;
+    text-shadow: 0 0 10px black;
+}
+.menu ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.kolom-1 {
+
+}
+.kolom-1 img {
+    width: 700px;
+    height: 450px;
+    margin-left: 185px;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+} 
+.kolom-1 h1 {
+    text-align: center;
+    margin: 20px 0  10px 0;
+    text-shadow: 0 0 2px black;
+}
+.kolom-1 p {
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0 180px 0 180px;
+}
+.kolom-2 {
+
+}
+.kolom-2 img {
+    width: 500px;
+    height: 500px;
+    margin-left: 285px;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+.kolom-2 h1 {
+    text-align: center;
+    margin: 20px 0  10px 0;
+    text-shadow: 0 0 2px black;
+}
+.kolom-2 p {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.kolom-3 {
+    
+}
+.kolom-3 img {
+    width: 500px;
+    height: 500px;
+    margin-left: 285px;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+.kolom-3 h1 {
+    text-align: center;
+    margin: 20px 0  10px 0;
+    text-shadow: 0 0 2px black;
+}
+.kolom-3 p {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.kolom-4 {
+    
+}
+.kolom-4 img {
+    width: 500px;
+    height: 500px;
+    margin-left: 285px;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+.kolom-4 h1 {
+    text-align: center;
+    margin: 20px 0  10px 0;
+    text-shadow: 0 0 2px black;
+}
+.kolom-4 p {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+@media screen and (min-width: 600px) {
+    .wrapper .logo {
+        font-size: 20px;
+    }
+    .logo a {
+        padding: 0px 5px 0px 5px;
+    }
+    .menu {
+        font-size: 10px;
+    }
+    .kolom-1 img {
+        width: 325px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+    }
+    .kolom-1 p {
+        margin: 0 40px 0 40px;
+    }
+    .kolom-2 p {
+        margin: 0 40px 0 40px;
+    }
+    .kolom-3 p {
+        margin: 0 40px 0 40px;
+    }
+    .kolom-4 p {
+        margin: 0 40px 0 40px;
+    }
+    .kolom-2 img {
+        width: 250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+    }
+    .kolom-3 img {
+        width: 250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+    }
+    .kolom-4 img {
+        width: 250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .wrapper .logo {
+        font-size: 40px;
+    }
+    .logo a {
+        padding: 0px 20px 0px 20px;
+    }
+    .menu {
+        font-size: 15px;
+    }
+    .kolom-1 img {
+        width: 450px;
+        height: 265px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+    }
+    .kolom-1 p {
+        margin: 0 15px 0 15px;
+    }
+    .kolom-2 p {
+        margin: 0 15px 0 15px;
+    }
+    .kolom-3 p {
+        margin: 0 15px 0 15px;
+    }
+    .kolom-4 p {
+        margin: 0 15px 0 15px;
+    }
+    .kolom-2 img {
+        width: 350px;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+    }
+    .kolom-3 img {
+        width: 350px;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+    }
+    .kolom-4 img {
+        width: 350px;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+    }
+}
+@media screen and (min-width: 992px) { 
+    .wrapper .logo {
+        font-size: 50px;
+    }
+    .logo a {
+        padding: 5px 20px;
+    }
+    .menu {
+        font-size: 20px;
+    }
+    .kolom-1 img {
+        width: 700px;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50px;
+    }
+    .kolom-1 p {
+        margin: 0 120px 0 120px;
+    }
+    .kolom-2 p {
+        margin: 0 120px 0 120px;
+    }
+    .kolom-3 p {
+        margin: 0 120px 0 120px;
+    }
+    .kolom-4 p {
+        margin: 0 120px 0 120px;
+    }
+    .kolom-2 img {
+        width: 500px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50px;
+    }
+    .kolom-3 img {
+        width: 500px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50px;
+    }
+    .kolom-4 img {
+        width: 500px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .wrapper .logo {
+        font-size: 19px;
+    }
+    .wrapper {
+        height: 100px;
+        padding-top: 5px;
+    }
+    .logo a {
+        padding: 0px 10px 0px 10px;
+    }
+    .menu {
+        font-size: 10px;
+    }
+    .kolom-1 img {
+        width: 275px;
+        height: 175px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+    }
+    .kolom-1 p {
+        margin: 0 15px 0 15px;
+    }
+    .kolom-2 p {
+        margin: 0 15px 0 15px;
+    }
+    .kolom-3 p {
+        margin: 0 15px 0 15px;
+    }
+    .kolom-4 p {
+        margin: 0 15px 0 15px;
+    }
+    .kolom-2 img {
+        width: 250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+    }
+    .kolom-3 img {
+        width: 250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+    }
+    .kolom-4 img {
+        width: 250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+    }   
+}
